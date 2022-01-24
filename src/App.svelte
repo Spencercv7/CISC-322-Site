@@ -1,15 +1,19 @@
 <script>
 
-    import Assignment from "./components/Assignment.svelte";
     import Header from "./components/Header.svelte";
     import Footer from "./components/Footer.svelte";
+    import Assignemnts from "./components/Assignments.svelte";
+    import Team from "./components/Team.svelte";
+    import Links from "./components/Links.svelte";
 
 </script>
 
 
 <Header />
 <section>
-
+  <Assignemnts />
+  <Team />
+  <Links />
 </section>
 <Footer />
 
@@ -17,9 +21,16 @@
 
   /* Root for CSS Variables */
   :root {
-    --black: #343233;
+    --black: #191819;
     --white: #FFFDFD;
-    --accent: #F98948;
+    --accent: #1F7A8C;
+
+    --boxShadowDefault: 1px 1px 0px var(--white);
+  }
+
+  :global(::selection, ::-moz-selection) {
+      color: var(--white);
+      background: var(--accent);
   }
 
   /* Reset Browser Defaults */
@@ -27,7 +38,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'roboto';
+    font-family: 'IBM Plex Mono', monospace;
   }
   
   /* Site-wide padding */
@@ -43,6 +54,16 @@
     grid-template-rows: auto 1fr auto;
     
     background-color: var(--black);
+  }
+
+  :global(h2) {
+    color: var(--white);
+    font-size: 1.8rem;
+  }
+
+  section {
+    max-width: 80rem;
+    justify-self: center;
   }
 
 </style>
