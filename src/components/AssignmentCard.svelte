@@ -18,7 +18,7 @@
     }
 
     li:hover {
-        transform: scale(1.01)
+        form: scale(1.01)
     }
 
     p {

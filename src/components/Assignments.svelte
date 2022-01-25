@@ -1,15 +1,15 @@
 <script>
     import AssignmentCard from './AssignmentCard.svelte'
+    import Section from './Section.svelte';
 </script>
 
-<div id="assignemntsWrapper">
-    <h2>Assignments</h2>
+<Section title={"Assignments"}>
     <ul>
         <AssignmentCard />
         <AssignmentCard />
         <AssignmentCard />
     </ul>
-</div>
+</Section>
 
 <style>
     ul {

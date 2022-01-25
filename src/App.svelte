@@ -8,7 +8,6 @@
 
 </script>
 
-
 <Header />
 <section>
   <Assignemnts />
@@ -16,6 +15,7 @@
   <Links />
 </section>
 <Footer />
+
 
 <style>
 
@@ -31,6 +31,11 @@
   :global(::selection, ::-moz-selection) {
       color: var(--white);
       background: var(--accent);
+  }
+
+  :global(html, body) {
+    height: 100%;
+    width: 100%;
   }
 
   /* Reset Browser Defaults */
@@ -49,16 +54,10 @@
   /* Set app to fill as much space as required with header and footer, rest section */
   :global(#app) {
     min-height: 100vh;
-    
     display: grid;
     grid-template-rows: auto 1fr auto;
     
     background-color: var(--black);
-  }
-
-  :global(h2) {
-    color: var(--white);
-    font-size: 1.8rem;
   }
 
   section {
