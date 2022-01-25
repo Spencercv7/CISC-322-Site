@@ -7,7 +7,7 @@
 
 <div>
     <ul>
-        <h3>{name}</h3>
+        <h4>{name}</h4>
         {#each links as link}
             <Link address={link} />
         {/each}
@@ -21,11 +21,12 @@
         justify-content: center;
     }
 
-    h3 {
+    h4 {
         color: var(--white);
         position: absolute;
-        writing-mode: sideways-lr;
-        text-orientation: mixed;
+        writing-mode: vertical-rl;
+        -moz-writing-mode: sideways-lr;
+        transform: rotate(180deg);
         left: -2rem;
     }
 
