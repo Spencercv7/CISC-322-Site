@@ -34,6 +34,12 @@
   :global(html, body) {
     height: 100%;
     width: 100%;
+    background-color: var(--black);
+  }
+
+  :global(body) {
+    display: grid;
+    justify-content: center;
   }
 
   /* Reset Browser Defaults */
@@ -54,8 +60,6 @@
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr;
-    
-    background-color: var(--black);
   }
 
   main {

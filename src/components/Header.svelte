@@ -10,7 +10,7 @@
 
     h1 {
         color: var(--white);
-        font-size: clamp(3rem, 6vw, 6rem);
+        font-size: clamp(3rem, 6vw, 5rem);
     }
 
     h1 span span {
