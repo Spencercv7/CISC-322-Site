@@ -1,0 +1,28 @@
+{
+	"team": [
+		{
+			"name": "Max Beninger",
+			"imageURL": "https://res.cloudinary.com/spencercv7-dev/image/upload/c_scale,w_512/v1635521440/CISC322/IMG_4686_kwy7a7.webp"
+		},
+		{
+			"name": "Spencer Venable",
+			"imageURL": "https://res.cloudinary.com/spencercv7-dev/image/upload/c_scale,w_512/v1643397984/CISC322/IMG_1582_wpkzje_1_ddgbth.webp"
+		},
+		{
+			"name": "Denise Micu",
+			"imageURL": "https://res.cloudinary.com/spencercv7-dev/image/upload/c_scale,w_512/v1643397983/CISC322/IMG_7507_uujsdf.webp"
+		},
+		{
+			"name": "Sean Guo",
+			"imageURL": "https://res.cloudinary.com/spencercv7-dev/image/upload/c_scale,w_512/v1643399781/CISC322/missing_photo.webp"
+		},
+		{
+			"name": "Aidan Richards",
+			"imageURL": "https://res.cloudinary.com/spencercv7-dev/image/upload/c_scale,w_512/v1643399781/CISC322/missing_photo.webp"
+		},
+		{
+			"name": "Leo Toueg",
+			"imageURL": "https://res.cloudinary.com/spencercv7-dev/image/upload/c_scale,w_512/v1643399781/CISC322/missing_photo.webp"
+		}
+	]
+}

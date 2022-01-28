@@ -1,7 +1,6 @@
 <script>
 
     import Header from "./components/Header.svelte";
-    import Footer from "./components/Footer.svelte";
     import Assignemnts from "./components/Assignments.svelte";
     import Team from "./components/Team.svelte";
     import Links from "./components/Links.svelte";
@@ -9,12 +8,11 @@
 </script>
 
 <Header />
-<section>
+<main>
   <Assignemnts />
-  <Team />
   <Links />
-</section>
-<Footer />
+  <Team />
+</main>
 
 
 <style>
@@ -55,14 +53,17 @@
   :global(#app) {
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
     
     background-color: var(--black);
   }
 
-  section {
+  main {
     max-width: 80rem;
     justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
 </style>

@@ -7,9 +7,6 @@
 </header>
 
 <style>
-    header {
-
-    }
 
     h1 {
         color: var(--white);

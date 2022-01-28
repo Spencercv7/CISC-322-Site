@@ -4,29 +4,7 @@
 </script>
 
 <Section title={"Assignments"}>
-    <ul>
-        <AssignmentCard />
-        <AssignmentCard />
-        <AssignmentCard />
-    </ul>
+    <AssignmentCard />
+    <AssignmentCard />
+    <AssignmentCard />
 </Section>
-
-<style>
-    ul {
-        list-style: none;
-        width: 100%;
-        
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-
-        gap: 1rem;
-
-        position: relative;
-    }
-
-    @media only screen and (max-width: 1100px) {
-        ul {
-            grid-template-columns: 1fr
-        }
-    }
-</style>

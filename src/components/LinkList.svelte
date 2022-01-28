@@ -36,6 +36,7 @@
         height: max-content;
         padding-left: 1rem;
         position: relative;
+        min-height: 5rem;
     }
 </style>
     
