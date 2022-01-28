@@ -5,18 +5,18 @@
     export let links;
 </script>
 
-<div>
+<li>
     <ul>
         <h4>{name}</h4>
         {#each links as link}
             <Link address={link} />
         {/each}
     </ul>
-</div>
+</li>
 
 <style>
 
-    div {
+    li {
         display: flex;
         justify-content: center;
     }
