@@ -1,9 +1,11 @@
 <script>
 
+    export let data;
+
 </script>
 
 <li>
-    <p>coming soon...</p>
+    {data.title}
 </li>
 
 <style>
