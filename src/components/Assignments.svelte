@@ -1,7 +1,7 @@
 <script>
     import AssignmentCard from './AssignmentCard.svelte'
     import Section from './Section.svelte';
-    import {assignemnts} from '../data/assignments'
+    import {assignments} from '../data/assignments'
 </script>
 
 <Section title={"Assignments"}>
