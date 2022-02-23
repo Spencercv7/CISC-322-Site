@@ -5,7 +5,8 @@
 </script>
 
 <li>
-    {data.title}
+    <p>{data.title}</p>
+    <a href={`/${data.pdf}`}>View Document</a>
 </li>
 
 <style>
