@@ -6,7 +6,7 @@
 
 <li>
     <p>{data.title}</p>
-    <a href={`/${data.pdf}`}>View Document</a>
+    <a href={`/pdf/${data.pdf}`}>View Document</a>
 </li>
 
 <style>
