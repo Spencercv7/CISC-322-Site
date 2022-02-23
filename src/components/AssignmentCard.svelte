@@ -6,8 +6,11 @@
 
 <li>
     <p>{data.title ? data.title : "Coming Soon..."}</p>
-    <a href={`/pdf/${data.pdf}`} target="_blank">View Document</a>
-    <a href={`${data.videoURL}`} target="_blank">View Video</a>
+   
+    {#if data.title !== ""}
+        <a href={`/pdf/${data.pdf}`} target="_blank">View Document</a>
+        <a href={`${data.videoURL}`} target="_blank">View Video</a>
+    {/if}
 </li>
 
 <style>
