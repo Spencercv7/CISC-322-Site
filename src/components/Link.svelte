@@ -3,7 +3,7 @@
 </script>
 
 <li>
-    <a href={address}><p>{address}</p></a>
+    <a href={address} target="_blank"><p>{address}</p></a>
 </li>
 
 <style>
@@ -17,4 +17,26 @@
         width: 250px;
         overflow: hidden;
     }
+
+    li {
+        position: relative;
+        overflow: hidden;
+    }
+
+    
+    a:before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: var(--white);
+        position: absolute;
+        opacity: .2;
+        transform: translateX(-100%);
+        transition: all .2s;
+    }
+    
+    a:hover:before {
+        transform: translateX(0rem);
+    }
+    
 </style>
