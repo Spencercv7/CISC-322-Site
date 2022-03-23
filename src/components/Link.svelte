@@ -23,7 +23,6 @@
         overflow: hidden;
     }
 
-    
     a:before {
         content: "";
         height: 100%;
