@@ -13,9 +13,10 @@
 		"img": "concrete.png"
 	},
     {
-        "title": "",
-        "videoURL": "",
-        "pdf": ""
-    }
+		"title": "Enhancement Report",
+		"videoURL": "https://www.youtube.com/watch?v=0rXEQLW-ukM",
+		"pdf": "Enhancement_Report.pdf",
+		"img": "enhance.png"
+	}
 ]
 }
